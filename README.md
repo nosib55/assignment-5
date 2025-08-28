@@ -32,3 +32,12 @@ Event delegation হলো একটি parent element-এ event listener বস
 use...performance ভালো হয়, নতুন child যোগ হলেও কাজ করে।
 
 
+5..What is the difference between preventDefault() and stopPropagation() methods?
+
+ans===preventDefault()
+কোনো element-এর default কাজ বন্ধ করে।
+যেমন: link এ ক্লিক করলে normaly অন্য পেজে যাবে, কিন্তু preventDefault দিলে যাবে না।
+
+stopPropagation()
+Event bubbling বা capturing বন্ধ করে দেয়।
+অর্থাৎ event উপরে parent element-এ আর যাবে না।
