@@ -25,7 +25,7 @@ for (let copy of copyBtns) {
     const numberCopy = copy
       .closest(".card-container")
       .querySelector(".hot-line").innerText;
-    alert(numberCopy);
+    alert("clipboard copied: " + numberCopy);
 
     navigator.clipboard.writeText(numberCopy);
   };
