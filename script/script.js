@@ -320,6 +320,7 @@ document.getElementById("railwayBtn").addEventListener("click", function () {
   CallHistory.appendChild(newHistory);
 });
 
+
 document
   .getElementById("callHistoryBtn")
   .addEventListener("click", function () {
