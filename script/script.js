@@ -31,6 +31,8 @@ for (let copy of copyBtns) {
   };
 }
 
+
+
 let coinNumber = 100;
 const coinCount = getElement("coin-count");
 // Emergency Btn
